@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.66.75" id="HelloWorldPageDef"
+                Package="view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="root" RangeSize="25" DataControl="HelloWorldSessionBeanBean"
+              id="HelloWorldSessionBeanBeanIterator"/>
+  </executables>
+  <bindings>
+    <attributeValues IterBinding="HelloWorldSessionBeanBeanIterator" id="message">
+      <AttrNames>
+        <Item Value="message"/>
+      </AttrNames>
+    </attributeValues>
+  </bindings>
+</pageDefinition>
