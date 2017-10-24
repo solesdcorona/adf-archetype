@@ -1,0 +1,7 @@
+code/cotizador/cotizador-web/src/main/temp
+code/cotizador/cotizador-web/src/main/angular/node_modules
+.classpath
+.project
+.settings/
+/target/**
+code/cotizador/cotizador-web/target/
