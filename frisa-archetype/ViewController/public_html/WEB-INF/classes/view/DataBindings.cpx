@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.1.3.66.75" id="DataBindings"
+             SeparateXMLFiles="false" Package="view" ClientType="Generic">
+  <pageMap>
+    <page path="/HelloWorld.jspx" usageId="view_HelloWorldPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="view_HelloWorldPageDef" path="view.pageDefs.HelloWorldPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="HelloWorldSessionBeanBean" path="model.HelloWorldSessionBeanBean"/>
+  </dataControlUsages>
+</Application>
